@@ -11,7 +11,7 @@ var argv=require('yargs').argv;
 // });
 
 var file;
-gulp.task('ittt',function(){
+gulp.task('sumit',function(){
 	return gulp.src('*features/'+argv.file+'.feature').pipe(cucumber({
 		'steps': '*features/step_definitions/'+argv.file+'.js',
 		'support': '*features/support/*.js',
@@ -19,4 +19,4 @@ gulp.task('ittt',function(){
 	}));
 });
 
-gulp.task('default',['ittt']);
+gulp.task('default',['sumit']);
