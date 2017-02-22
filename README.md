@@ -21,7 +21,7 @@ npm install -g gulp
 
 3. selenium-cucumber-js
 
-npm install selenium-cucumber-js
+npm install selenium-cucumber-js --save-dev
 
 ####Now you install all dependency
 run command 
@@ -33,6 +33,6 @@ npm i
 
 for running script you have use command
 
-gulp auto --file file-name
+gulp sumit --file file-name
 
-eg. gulp auto --file click
+eg. gulp sumit --file click
